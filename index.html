@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fetch API Sandbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+
+        #title {
+        text-align: center;
+    }
+
+    #maincontainer {
+        display: flex;
+        align-items: center;
+    }
+
+    #maincontainer > #outputcontainer {
+        flex: 1;
+    }
+
+    #container {
+        width: 50%;
+        height: 500px;
+        text-align: left;
+    }
+    
+    button {
+        margin-top: 10px;
+    }
+
+    #api {
+        padding: 20px;
+    }
+
+    #oop {
+        padding: 20px;
+    }
+
+    #interview {
+        padding: 20px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div id='title'>
+        <h1>All Things JS</h1>
+    </div>
+
+    <div id='maincontainer'>
+        <div id='container'>
+            <div id='api'>
+                <h3>API Calls</h3>
+
+                <button id='getJSON'>Get JSON Data</button>
+                <br>
+                <button id='getText'>Get Text Data</button>
+                <br>
+                <button id='getCrypto'>Get Crypto API</button>
+            </div>
+
+            <div id='interview'>
+                <h4>Interview Questions</h4>
+
+                <button id='fizzbuzz'>FizzBuzz</button>
+                <br>
+                <input type='text' id='reverse'>
+                <button id='revSubmit'>Reverse Me</button>
+                <br>
+                <input type='text' id='revAgain'>
+                <button id='revAgainSubmit'>Reverse Me Again</button>
+            </div>
+
+            <div id='oop'>
+                <h4>OOP</h4>
+
+                <button id='constructor'>Golfer Constructor</button>
+                <br>
+                <button id='inheritence'>Magazine Inheritence</button>
+                <br>
+                <button id='classes'>Pizza Class</button>
+            </div>
+        </div>
+
+        <div id='outputcontainer'>
+            <div id='output'></div>
+            <div id='output2'></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="api.js"></script>
+    <script src="interview.js"></script>
+    <script src="oop.js"></script>
+</body>
+
+</html>
